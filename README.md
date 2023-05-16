@@ -1,3 +1,5 @@
 # odin-recipes
 
-The objective of this project is to create a basic website that contains links for food recipes.The main goal is to demonstrate knowledge respective to creation of HTML documents and proper usage of the HTML syntax for a recipe website.
+Basic HTML website that contains links to various food recipes.
+
+The main goal of this website is to test basic knowledge on the creation of HTML documents and proper usage of HTML syntax for this recipe website.
