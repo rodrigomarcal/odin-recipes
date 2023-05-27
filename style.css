@@ -1,17 +1,153 @@
+
+#dish-list {
+    list-style: none;
+    width: fit-content;
+    margin: auto;
+    border: hidden;
+}
+
+#special-title {
+    width: fit-content;
+}
+
+#cappelletti {
+    width: 400px;
+    height: auto;
+    border: 2px gray;
+    border-style: outset;
+    border-radius: 2px;
+
+}
+
+#lasagna {
+    width: 400px;
+    height: 290px;
+    border: 2px gray;
+    border-style: outset;
+    border-radius: 2px;
+
+}
+
+#homemade-pizza {
+    width: 400px;
+    height: auto;
+    border: 2px gray;
+    border-style: outset;
+    border-radius: 2px;
+
+}
+
+#pineapple-pie {
+    width: 400px;
+    height: auto;
+    border: 2px gray;
+    border-style: outset;
+    border-radius: 2px;
+
+}
+
 body {
-    font-family: Garamond, Georgia, 'Times New Roman', serif;
-    font-size: 16px;
-    background-color: rgb(255,255,245);
+    font-family: "Times New Roman", Georgia, Garamond, serif;
+    background-color: rgb(255,255,220);
 }
  
 h1, h2 {
     text-align: center;
-    font-size: 28px;
-    background-color: rgb(255,190,40);
-    color: beige;
-    font-weight: bolder;
+    color: olive;
+    padding: 12px;
+    border: 8px solid olive;
+    border-radius: 100px;
+    margin: auto;
+
 }
 
 h1 {
-    font-size: 40px;
+    width: 415px;
+    font-size: 52px;
+    margin-bottom: 80px;
+
 }
+
+h2 {
+    width: 300px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+ol,
+ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: auto;
+}
+
+p,
+li {
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+li {
+
+    margin: 10px;
+}
+
+.n-l-style{
+    display: inline-block;
+}
+
+.in-blk {
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.dish-title {
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    margin-bottom: 24px;
+    display: block;
+    
+}
+
+.dish {
+    border: 2px olive;
+    border-style: groove;
+    border-radius: 30px;
+    width: 300px;
+    height: 240px;
+    margin-left: 12px;  
+    margin-right: 12px;
+    display: inline-block;
+}
+
+
+
+.ingredients {
+    width: 400px;
+    margin: 0 auto 40px;
+}
+
+.steps {
+    width: 700px;
+    margin: 0 auto 40px;
+
+}
+
+.center {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
